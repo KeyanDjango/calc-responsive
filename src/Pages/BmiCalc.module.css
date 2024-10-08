@@ -1,0 +1,80 @@
+.bmi_parent{
+    width:100%;
+    height: 80vh;
+
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content:center; 
+}
+.bmi_card{
+    width:22rem;
+    height:30rem;
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.weightbmi{
+    width:300px;
+    height:25px;
+    outline:none;
+    padding:10px;
+    margin-top:10px;
+}
+.bmibtn{
+    padding:10px;
+    margin-top: 10px;
+    border-radius:10px;
+    border:0.2px solid black;
+    background-color:lightcoral;
+    color:white;
+    font-weight:700;
+}
+.bmibtn1{
+    padding:10px;
+    margin-top: 10px;
+    border-radius:10px;
+    border:0.2px solid black;
+    background-color:rgb(118, 110, 110);
+    color:white;
+    font-weight:700;
+}
+.status_card{
+    width: 20rem;
+    height: 5rem;
+    border:1px solid black; 
+    margin-top:20px;
+}
+.alert_parent{
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    background-color: rgba(0,0,0,0.4);
+    top:0;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.alert_content{
+    width:40%;
+    height:35%;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    row-gap: 30px;
+    background-color: rgb(255, 241, 160);
+
+}  
+
+@media only screen and (max-width:480px){
+    .alert_content{
+        width:80%;
+        height:35%;
+    
+    }  
+}

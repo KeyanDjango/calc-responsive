@@ -27,7 +27,7 @@ const Navigation = () => {
     return (
         <>
             <div className={Style.container_parent}>
-                <span style={{ position: 'relative', right: 20, fontSize: '1.2rem' }}>LOGO</span>
+                <span style={{ position: 'relative', right: 20, fontSize: '1.2rem' }}>REACT</span>
                 <div className={Style.container_txt}>
 
                     <NavLink to="/">HOME</NavLink>

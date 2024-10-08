@@ -5,6 +5,7 @@ import Navigation from './Navigation/Navigation';
 import About from './Pages/About';
 import Dashboard from './Pages/Dashboard';
 import Calculator from './Pages/Calculator';
+import BMICALC from './Pages/BmiCalc';
 
 export default function App() {
   return (
@@ -13,9 +14,10 @@ export default function App() {
         <Navigation />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/dashboard' element={<Dashboard/>} />
-          <Route path="/calculator" element={<Calculator/>}/>
+          <Route path='/about' element={<About />} />
+          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/bmicalc" element={<BMICALC/>} />
         </Routes>
       </BrowserRouter>
     </>
