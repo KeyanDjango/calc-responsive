@@ -27,3 +27,16 @@
    grid-column-start: 3;
    grid-column-end: -1;
 }
+
+@media only screen and (max-width:480px){
+    .calc_child{
+        width:18rem;
+        background-color: bisque;
+    }
+    .condel{
+        background-color: rgb(116, 116, 224);
+        border:0.2px solid black;
+        color: aliceblue;
+    }
+    
+}

@@ -2,7 +2,7 @@
     text-align:center;
 }
 .Dashboard_parent_card{
-    width:20rem;
+    width:26rem;
     height:10rem;
     border:1px solid black;
     display: flex;
@@ -22,5 +22,6 @@
     }
     .Dashboard_parent_card{
         margin-top: 10px;
+        width:20rem;
     }
 }
