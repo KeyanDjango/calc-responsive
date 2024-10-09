@@ -6,7 +6,7 @@ export default function Calculator() {
 
     useEffect(() => {
          document.title="calculator";
-    },[])
+    },[]);
 
     function HandleNumber(num) {
         setNumber(prev => prev + num)

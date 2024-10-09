@@ -15,6 +15,7 @@
     padding:10px;
     gap:10px;
     
+    
 }
 .calc_child>input{
     grid-column: 1 / span 4;
@@ -32,6 +33,7 @@
     .calc_child{
         width:18rem;
         background-color: bisque;
+        margin-top:340px;
     }
     .condel{
         background-color: rgb(116, 116, 224);

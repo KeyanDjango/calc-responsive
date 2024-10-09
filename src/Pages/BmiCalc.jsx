@@ -26,7 +26,7 @@ export default function BmiCalc() {
         }
         else {
             console.log('Weight is required!. Please enter Weight');
-            setMessage('Weight is required!. Please enter Height');
+            setMessage('Weight is required!. Please enter Weight');
             setCheck(true);
             return
         }

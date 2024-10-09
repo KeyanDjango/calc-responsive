@@ -16,8 +16,8 @@ export default function Dashboard() {
                     BMI CALC
                 </div>
 
-                <div className={Style.Dashboard_parent_card}>
-
+                <div className={Style.Dashboard_parent_card} style={{backgroundColor:'lightslategray',fontWeight:'bold',color:'white'}} onClick={() => navigate('/agecalc')}>
+                    AGE CALC
                 </div>
 
             </div>
