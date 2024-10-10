@@ -39,10 +39,38 @@
     color: white;
     margin: 20px;
 }
+.agecalc_parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.agecalc_content{
+    width: 30%;
+    height:30%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.btnagecalc{
+    margin:50px auto;
+    display: block;
+    padding: 10px 50px 10px 50px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.btnagecalc:active{
+    background-color: black;
+    color: white;
+}
 
 @media only screen and (max-width:480px){
     .agecalc_child_con{
-        width: 95%;
+        width: 90%;
     }
     input{
         width:95%;
@@ -50,5 +78,10 @@
         text-align:center;
         font-family: Arial, Helvetica, sans-serif;
 
+    }
+    .agecalc_content{
+        width: 80%;
+        height:30%;
+        font-size: 1rem;
     }
 }
