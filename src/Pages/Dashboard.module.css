@@ -1,27 +1,30 @@
-.txt{
-    text-align:center;
+.txt {
+    text-align: center;
 }
-.Dashboard_parent_card{
-    width:26rem;
-    height:10rem;
-    border:1px solid black;
+
+.Dashboard_parent_card {
+    width: 26rem;
+    height: 10rem;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.parent_card{
+
+.parent_card {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
 
-@media only screen and (max-width:480px){
-    .parent_card{
+@media only screen and (max-width:480px) {
+    .parent_card {
         justify-content: center;
     }
-    .Dashboard_parent_card{
+
+    .Dashboard_parent_card {
         margin-top: 10px;
-        width:20rem;
+        width: 20rem;
     }
 }

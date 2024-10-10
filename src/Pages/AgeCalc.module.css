@@ -41,9 +41,6 @@
 }
 
 @media only screen and (max-width:480px){
-    .agecalc_parent_con{
-        margin-top:100px;
-    }
     .agecalc_child_con{
         width: 95%;
     }

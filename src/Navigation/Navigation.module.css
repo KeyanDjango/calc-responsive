@@ -7,7 +7,7 @@
     box-sizing: border-box;
     padding: 1.2rem;
     width: 100%;
-    background-color: lightblue;
+    background-color: royalblue;
     display: flex;
     justify-content: space-between;
 
@@ -20,9 +20,12 @@
 
 .container_txt>a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
+.container_txt>a:hover {
+    color: navy;
+}
 .side_nav_parent {
    display: none;
 }

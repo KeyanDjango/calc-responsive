@@ -34,7 +34,16 @@ export default function AgeCalc() {
                     <h4 style={{ marginTop: 20 }}>{result_age} <span style={{ color: 'blue', fontWeight: 'bold' }}> YEARS OLD </span></h4>
                 </div>
             </div>
-
+            
         </div>
+    )
+}
+
+
+function ModalAgeCalc(){
+    return(
+        <>
+          
+        </>
     )
 }
